@@ -1,0 +1,5 @@
+create a maven project with following instructions 
+creatre a bean class named car with carid carnum
+crate a bean class named bike with bikeid and bikename
+create a bean class named vehicle and add the two car deatails and bike details 
+with in bike details with in vheicle object

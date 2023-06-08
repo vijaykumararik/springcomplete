@@ -1,0 +1,34 @@
+package com.ty;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+public class Saveperson {
+public static void main(String[] args) {
+	EntityManagerFactory entityManagerFactory=
+			Persistence.createEntityManagerFactory("vijay");
+	EntityManager entityManager=entityManagerFactory.createEntityManager();
+	EntityTransaction entityTransaction=entityManager.getTransaction();
+	Person person=new Person();
+	person.setId(185);
+	person.setName("raju");
+	person.setAge(23);
+	person.setGender("male");
+	person.setPhone(1234567123l);
+	Person person1=new Person();
+	person1.setId(103);
+	person1.setName("rani");
+	person1.setAge(22);
+	person1.setGender("gmale");
+	person1.setPhone(8534567123l);
+	
+	entityTransaction.begin();
+	entityManager.persist(person);
+	entityManager.persist(person1);
+	entityManager.remove(entityManager.find(person.getClass(), 103));
+	
+	entityTransaction.commit();
+}
+}

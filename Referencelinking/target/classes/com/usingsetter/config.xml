@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd"> 
+    <bean name="student1" class="com.usingsetter.Student" p:sid="12" p:sname="ajay" >
+    </bean>
+     <bean name="student2" class="com.usingsetter.Student" p:sid="13" p:sname="vjay" >
+    </bean>
+     <bean name="student3" class="com.usingsetter.Student" p:sid="14" p:sname="sujay" >
+    </bean>
+     <bean name="student4" class="com.usingsetter.Student" p:sid="15" p:sname="banujay" >
+    </bean>
+    <bean name="branch1" class="com.usingsetter.Branch" p:bid="23" p:bname="civil"> 
+    <property name="students">
+    <list>
+    <ref bean="student1"></ref>
+    <ref bean="student2"></ref>
+    </list>
+    </property>
+    </bean>
+    <bean name="branch2" class="com.usingsetter.Branch" p:bid="25" p:bname="mech"> 
+    <property name="students">
+    <list>
+    <ref bean="student3"></ref>
+    <ref bean="student4"></ref>
+    </list>
+    </property>
+    </bean>
+    <bean name="college" class="com.usingsetter.College" p:cid="852" p:cname="sdm">
+    <property name="branches">
+    <list>
+    <ref bean="branch1"></ref>
+    <ref bean="branch2"></ref>
+    </list>
+    </property>
+    </bean>
+    
+    
+    
+    
+    
+    
+    </beans>

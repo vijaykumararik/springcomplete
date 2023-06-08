@@ -1,0 +1,25 @@
+
+Feb 15, 2023 14:33:33.981 NEW SESSION
+Feb 15, 2023 14:33:33.981 [19656:28068:0215/143333.975:ERROR:device_event_log_impl.cc(218)] [14:33:33.975] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 15, 2023 14:33:54.78 [19656:12212:0215/143354.078:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+Feb 15, 2023 14:34:03.207 [19656:28068:0215/143403.206:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Feb 15, 2023 14:34:04.340 [19656:28068:0215/143404.340:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Feb 15, 2023 14:34:14.962 [19656:12212:0215/143414.961:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+Feb 15, 2023 14:34:56.671 [19656:12212:0215/143456.671:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+Feb 15, 2023 14:36:18.356 [19656:12212:0215/143618.355:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+Feb 15, 2023 14:39:18.728 [19656:12212:0215/143918.727:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+Feb 15, 2023 14:46:04.104 [19656:12212:0215/144604.103:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+Feb 15, 2023 14:56:04.121 [19656:12212:0215/145604.120:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+Feb 15, 2023 15:06:04.133 [19656:12212:0215/150604.132:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+
+Mar 17, 2023 12:55:46.820 NEW SESSION
+Mar 17, 2023 12:55:46.820 [14188:13124:0317/125546.817:ERROR:device_event_log_impl.cc(222)] [12:55:46.817] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 17, 2023 12:56:05.137 [14188:13020:0317/125605.134:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Mar 17, 2023 12:56:15.191 [14188:13020:0317/125615.189:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Mar 17, 2023 12:56:20.166 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 17, 2023 12:56:31.825 [14188:13020:0317/125631.823:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Mar 17, 2023 12:56:45.23 [14188:13020:0317/125645.021:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Mar 17, 2023 12:57:13.972 [14188:13020:0317/125713.971:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Mar 17, 2023 12:57:37.158 [14188:13020:0317/125737.156:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Mar 17, 2023 12:59:05.211 [14188:13020:0317/125905.209:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Mar 17, 2023 12:59:16.366 [14188:13020:0317/125916.365:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106

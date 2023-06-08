@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context  
+        http://www.springframework.org/schema/beans/spring-beans.context" >
+        <!-- usng value tag -->
+        <bean class="com.jsp.Demo.Mod1.Student" name="student1" p:usn="123"
+        p:name="dinga" p:marks="90.56">
+        <!-- usng value tag 
+        <property name="usn"><value>123456</value></property>
+         <property name="name"><value>Satish raj</value></property>
+          <property name="marks"><value>96.23</value></property>
+          -->
+        <!-- usingvalue attribute
+        <property name="usn" value="123"/>
+        <property name="name" value="dinga"/>
+        <property name="marks" value="60.3"/>
+        
+         -->
+        
+        
+        
+        
+        </bean>
+        </beans>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd"> 
+   <bean name="sample" class="com.moreconstructor.Sample">
+   <constructor-arg value="123" type="int"> </constructor-arg>
+   <constructor-arg value="623" type="int"> </constructor-arg>
+   </bean>
+     <bean name="sample1" class="com.moreconstructor.Sample">
+   <constructor-arg value="124.56" type="double" index="1"> </constructor-arg>
+   <constructor-arg value="6238.2" type="double" index="0"> </constructor-arg>
+   </bean> 
+    </beans>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd"> 
+  <bean name="customer1" class="com.Customer" c:customerid="1" c:customername="ramapro"  c:phnum="852964"></bean>
+   <bean name="customer2" class="com.Customer" c:customerid="2" c:customername="ramapro"  c:phnum="852964"></bean>
+   <bean name="customer3" class="com.Customer" c:customerid="3" c:customername="ramapro"  c:phnum="852964"></bean>
+   <bean name="customer4" class="com.Customer" c:customerid="4" c:customername="ramapro"  c:phnum="852964"></bean>
+   <bean name="customer5" class="com.Customer" c:customerid="5" c:customername="ramapro"  c:phnum="852964"></bean>
+   
+  
+  <bean name="provision1" class="com.ProvisionStrore" c:storename="himalaya" c:location="bang">
+   <constructor-arg>
+   <list>
+   <ref bean="customer1"></ref>
+   <ref bean="customer2"></ref>
+   <ref bean="customer3"></ref>
+   <ref bean="customer4"></ref>
+   <ref bean="customer5"></ref>
+    </list>
+   </constructor-arg></bean>
+   <bean name="provision2" class="com.ProvisionStrore" c:storename="hara" c:location="dharwad">
+   <constructor-arg>
+   <list>
+   <ref bean="customer1"></ref>
+   <ref bean="customer2"></ref>
+   <ref bean="customer3"></ref>
+   <ref bean="customer4"></ref>
+   <ref bean="customer5"></ref>
+    </list>
+   </constructor-arg></bean>
+   <bean name="branch" class="com.Branch" c:location="mysore" >
+   <constructor-arg>
+   <list>
+   <ref bean="provision1"></ref>
+   <ref bean="provision2"></ref>
+    </list>
+   </constructor-arg></bean>
+  
+   
+   
+   
+    </beans>

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Mar 27 11:11:12 IST 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\vijaykumar\\Desktop\\Springs\\MVCproMULtiplepages\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.10.jar=WEB-INF/lib/spring-web-5.3.10.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\vijaykumar\\Desktop\\Springs\\MVCproMULtiplepages\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.10-sources.jar=WEB-INF/lib/spring-web-5.3.10-sources.jar
